@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>SearchMedi</servlet-name>
+        <servlet-class>Medi.java.SearchMedi</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ImportMedi</servlet-name>
+        <servlet-class>Medi.java.ImportMedi</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PlaceOrder</servlet-name>
+        <servlet-class>Medi.java.PlaceOrder</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchMedi</servlet-name>
+        <url-pattern>/SearchMedi</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ImportMedi</servlet-name>
+        <url-pattern>/importMedi</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PlaceOrder</servlet-name>
+        <url-pattern>/PlaceOrder</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>UserPage.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
