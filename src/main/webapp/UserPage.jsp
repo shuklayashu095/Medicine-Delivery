@@ -1510,10 +1510,10 @@
                         <p class="text-secondary mb-2">
                             <i class="bi bi-telephone me-2"></i>
 
-                            <a href="tel:9918741727"
+                            <a href="tel:8417919312"
                                class="text-secondary text-decoration-none">
 
-                                9918741727
+                                8417919312
 
                             </a>
                         </p>
